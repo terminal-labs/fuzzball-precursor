@@ -5,6 +5,8 @@ sudo apt install -y unzip
 sudo apt install -y git
 sudo apt install -y make
 sudo apt install -y build-essential
+
 git clone https://github.com/terminal-labs/fuzzball-states.git
 cd fuzzball-states
-make linux
+
+sudo make linux
