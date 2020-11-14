@@ -12,6 +12,6 @@ cd fuzzball-states
 sudo make linux
 
 conda init bash
-/home/${USER}/.bashrc
+source /home/${USER}/.bashrc
 source activate.sh
 fuzzball up
