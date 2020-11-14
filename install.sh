@@ -10,3 +10,6 @@ git clone https://github.com/terminal-labs/fuzzball-states.git
 cd fuzzball-states
 
 sudo make linux
+
+source activate.sh
+fuzzball up
